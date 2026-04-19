@@ -1,0 +1,5 @@
+# Build artifacts
+toyc
+*.ptx
+build/
+.DS_Store

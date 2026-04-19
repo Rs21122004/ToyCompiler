@@ -1,0 +1,8 @@
+// Test constant folding
+int x = 2 * 3;
+int y = x + 0;
+int z = y * 1;
+int w = 5 * 0;
+
+int folded = 10 + 20 * 3;
+print(folded);
